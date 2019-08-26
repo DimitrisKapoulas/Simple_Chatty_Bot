@@ -87,3 +87,50 @@ Completed, have a nice day!</br>
 Note, each number starts with a new line, and after a number, the bot should print the exclamation mark. Do not output any extra characters in these lines with numbers.
 
 Use the provided template to simplify your work. You can change the text if you want, but be especially careful with counting numbers.
+
+Stage 4/4: The student and the teacher
+
+Description
+
+At this stage, you will improve your simple bot so that it can give you a test and check your answers. The test should be about programming. Your bot has to continue to ask the test until you answer correctly.
+
+Your bot can ask anything you want, but there are two rules for your output:
+
+    the line with the test should end with the question mark character;
+    an option starts with a digit followed by the dot (1., 2., 3., 4.)
+
+If a user enters an incorrect answer, the bot may print a message:</br>
+
+Please, try again.</br>
+
+Here is an example of a dialogue with the new version of the bot. Input lines are started with ">" symbol.</br>
+
+Hello! My name is Aid.</br>
+I was created in 2018.</br>
+Please, remind me your name.</br>
+> Max</br>
+What a great name you have, Max!</br>
+Let me guess your age.</br>
+Say me remainders of dividing your age by 3, 5 and 7.</br>
+> 1 2 1</br>
+Your age is 22: that's a good time to start programming!</br>
+Now I will prove to you that I can count to any number you want.</br>
+> 3</br>
+0!</br>
+1!</br>
+2!</br>
+3!</br>
+Let's test your programming knowledge.</br>
+Why do we use methods?</br>
+1. To repeat a statement multiple times.</br>
+2. To decompose a program into several small subroutines.</br>
+3. To determine the execution time of a program.</br>
+4. To interrupt the execution of a program.</br>
+> 4</br>
+Please, try again.</br>
+> 2</br>
+Congratulations, have a nice day!</br>
+
+The program must end with the Congratulations, have a nice day! message.
+
+Use the provided template to simplify your work. You can change the text if you want. Please note that we use methods to make it easy to understand the program and add to or edit later.
