@@ -57,3 +57,33 @@ Say me remainders of dividing your age by 3, 5 and 7.</br>
 > 1 2 1</br>
 Your age is 22; that's a good time to start programming!</br>
 Use the provided template to simplify your work. You can change the text, but not the number of printed lines.</br>
+
+Stage 3/4: Let’s count!
+
+Description
+
+At this stage, you will program the bot to count from 0 to any positive number you entered.
+
+Here is an example of a dialogue with the new version of the bot. Input lines are started with ">" symbol.
+
+Hello! My name is Aid.</br>
+I was created in 2018.</br>
+Please, remind me your name.</br>
+> Max​​​​​​​</br>
+What a great name you have, Max!</br>
+Let me guess your age.</br>
+Say me remainders of dividing your age by 3, 5 and 7.</br>
+> 1 2 1</br>
+Your age is 22; that's a good time to start programming!</br></br>
+Now I will prove to you that I can count to any number you want.</br>
+> 5</br>
+0!</br>
+1!</br>
+2!</br>
+3!</br>
+4!</br>
+5!</br>
+Completed, have a nice day!</br>
+Note, each number starts with a new line, and after a number, the bot should print the exclamation mark. Do not output any extra characters in these lines with numbers.
+
+Use the provided template to simplify your work. You can change the text if you want, but be especially careful with counting numbers.
